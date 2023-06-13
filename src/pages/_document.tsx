@@ -11,7 +11,7 @@ export default function Document() {
     a character set, it could be a windows format if there are characters
     like quotes that have separate beginning and end characters -->
 
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=viewport content="width=device-width, initial-scale=1" />
     <!-- This is one way to set the viewport for mobile devices-->
 
     <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -35,7 +35,7 @@ export default function Document() {
     <link href="https://plus.google.com/110695574125259754582" rel="publisher" />
     <!--If you setup a publisher page in G+ then this one way to add the link -->
 
-    <meta property="fb:admins" content="1419362191">
+    <meta property="fb:admins" content="1419362191" />
     <!-- The fb:admins id is used for adding widgets etc. to your site and allows
     others to admin your FB app if you have one setup and their ids have been added-->
 
@@ -57,8 +57,6 @@ export default function Document() {
           crossOrigin='anonymous'
         />
         
-        
-
         <script
           dangerouslySetInnerHTML={{
             __html:
