@@ -3,34 +3,7 @@ import { Head, Html, Main, NextScript } from 'next/document';
 export default function Document() {
   return (
     <Html lang='en'>
-      
       <Head>
-         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
-    <meta name=viewport content="width=device-width, initial-scale=1" />
-
-    <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-
-    <title>Basic HTML5 Webpage Example</title>
-
-    <meta name="description" content="An example of a basic seo friendly html5 web page." />
-    <meta name="keywords" content="Website Design Tips, HTML5, SEO" />
-
-    <link href="https://plus.google.com/110695574125259754582" rel="publisher" />
-
-    <meta property="fb:admins" content="1419362191" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Basic HTML5 Webpage Example" />
-    <meta property="og:description" content="An example of a basic seo friendly html5 web page." />
-    <meta property="og:url" content="www.siteraiser.com/" />
-    <meta property="og:image" content="http://www.siteraiser.com/images/image-for-page.jpg" />
-    <meta property="og:width" content="1106" />
-    <meta property="og:height" content="553" />
-        
         <link
           rel='preload'
           href='/fonts/inter-var-latin.woff2'
@@ -38,7 +11,7 @@ export default function Document() {
           type='font/woff2'
           crossOrigin='anonymous'
         />
-        
+
         <script
           dangerouslySetInnerHTML={{
             __html:
@@ -65,11 +38,11 @@ export default function Document() {
 
 /**
  script async src="https://www.googletagmanager.com/gtag/js?id=G-9DCXWVL804"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
 
-  gtag('config', 'G-9DCXWVL804');
-</script>
+ gtag('config', 'G-9DCXWVL804');
+ </script>
  */
