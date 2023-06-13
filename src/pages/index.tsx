@@ -31,13 +31,6 @@ export default function HomePage() {
       <div class="elementor-motion-effects-layer" style="width: 100%; height: 100%; opacity: 0.217; will-change: opacity;"></div>
     </div>
     <div class="elementor-background-overlay"></div>
-    <div class="elementor-shape elementor-shape-top" data-negative="false">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-        <path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
-        <path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
-        <path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
-      </svg>
-    </div>
     <div class="elementor-container elementor-column-gap-narrow">
       <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-14eed4be" data-id="14eed4be" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated">
@@ -52,13 +45,9 @@ export default function HomePage() {
       </div>
       <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-66e1bca1" data-id="66e1bca1" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated">
-          <div class="elementor-element elementor-element-2104b6e7 elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="2104b6e7" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;
-								
-							<svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot;
-								xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;>
-								<path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+          <div class="elementor-element elementor">
             <div class="elementor-widget-container">
-              <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">
+              <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css" />
               <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-grow">
                 <ul id="menu-1-2104b6e7" class="elementor-nav-menu" data-smartmenus-id="1686646806810156">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-36 current_page_item menu-item-72">
@@ -298,7 +287,7 @@ export default function HomePage() {
             <div class="elementor-element elementor-element-440b7b5 e-con-full e-flex e-con" data-id="440b7b5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
               <div class="elementor-element elementor-element-12acf8a elementor-view-framed elementor-shape-square elementor-widget__width-initial elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="12acf8a" data-element_type="widget" data-widget_type="icon-box.default">
                 <div class="elementor-widget-container">
-                  <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                  <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css" />
                   <div class="elementor-icon-box-wrapper">
                     <div class="elementor-icon-box-icon">
                       <span class="elementor-icon elementor-animation-shrink">
@@ -828,7 +817,7 @@ export default function HomePage() {
                       <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-3dc166f0 elementor-cta--skin-cover elementor-cta--valign-middle elementor-bg-transform elementor-bg-transform-zoom-out elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="3dc166f0" data-element_type="widget" data-widget_type="call-to-action.default">
                           <div class="elementor-widget-container">
-                            <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css">
+                            <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css" />
                             <a class="elementor-cta" href="https://www.teamneunzehn.at/" target="_blank">
                               <div class="elementor-cta__bg-wrapper">
                                 <div class="elementor-cta__bg elementor-bg" style="background-image: url();" role="img" aria-label=""></div>
@@ -1003,7 +992,7 @@ export default function HomePage() {
         <div class="elementor-widget-wrap elementor-element-populated">
           <div class="elementor-element elementor-element-463d8645 elementor-tablet-align-center elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="463d8645" data-element_type="widget" data-widget_type="icon-list.default">
             <div class="elementor-widget-container">
-              <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
+              <link rel="stylesheet" href="https://hanconcept.eu/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css" />
               <ul class="elementor-icon-list-items">
                 <li class="elementor-icon-list-item">
                   <span class="elementor-icon-list-icon">
