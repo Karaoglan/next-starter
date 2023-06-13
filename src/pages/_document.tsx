@@ -6,41 +6,23 @@ export default function Document() {
       
       <Head>
          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- search engines like to know what they are dealing with,
-    the type should be obvious, but it is best to at least provide
-    a character set, it could be a windows format if there are characters
-    like quotes that have separate beginning and end characters -->
+
 
     <meta name=viewport content="width=device-width, initial-scale=1" />
-    <!-- This is one way to set the viewport for mobile devices-->
 
     <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- A deferred script that loads JQuery after the page has been loaded,
-    it reduces the time to display the content the first time. I am loading it
-    from a common cdn in hopes that the visitor already has it cached in their browser.-->
+
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <!-- A nice touch in the tab appearing before the title and an SEO consideration,
-    this points to the images folder where a few versions of the favicon reside -->
 
     <title>Basic HTML5 Webpage Example</title>
-    <!-- A concise descriptive title that grabs the eye is a winner!
-    Then the rest of your usual SEO tags description, and keywords.
-    The description is probably more important than the keywords in this
-    day and age, but both are good to include none the less.
-    -->
+
     <meta name="description" content="An example of a basic seo friendly html5 web page." />
     <meta name="keywords" content="Website Design Tips, HTML5, SEO" />
 
     <link href="https://plus.google.com/110695574125259754582" rel="publisher" />
-    <!--If you setup a publisher page in G+ then this one way to add the link -->
 
     <meta property="fb:admins" content="1419362191" />
-    <!-- The fb:admins id is used for adding widgets etc. to your site and allows
-    others to admin your FB app if you have one setup and their ids have been added-->
-
-    <!-- Below is the open graph markup specifying the info for the page and the required
-    image dimensions for the image to be shared at full size the first time. -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Basic HTML5 Webpage Example" />
     <meta property="og:description" content="An example of a basic seo friendly html5 web page." />
