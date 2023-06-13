@@ -23,7 +23,7 @@ import Vercel from '~/svg/Vercel.svg';
 
 export default function HomePage() {
   return (
-  <Layout> {/*
+  	<Layout> {/*
   <Seo templateTitle='Home' /> */}
   <Seo />
   <header data-elementor-type="header" data-elementor-id="21" class="elementor elementor-21 elementor-location-header elementor-motion-effects-parent">
