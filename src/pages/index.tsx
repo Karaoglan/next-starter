@@ -23,6 +23,31 @@ import Vercel from '~/svg/Vercel.svg';
 
 export default function HomePage() {
   return (
+  	/* eslint-disable */
+import * as React from 'react';
+
+import Layout from '@/components/layout/Layout';
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
+import UnderlineLink from '@/components/links/UnderlineLink';
+import UnstyledLink from '@/components/links/UnstyledLink';
+import Seo from '@/components/Seo';
+
+/**
+ * SVGR Support
+ * Caveat: No React Props Type.
+ *
+ * You can override the next-env if the type is important to you
+ * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
+ */
+import Vercel from '~/svg/Vercel.svg';
+
+// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
+// Before you begin editing, follow all comments with `STARTERCONF`,
+// to customize the default configuration.
+
+export default function HomePage() {
+  return (
   	<Layout> {/*
   <Seo templateTitle='Home' /> */}
   <Seo />
@@ -44,7 +69,7 @@ export default function HomePage() {
           <div class="elementor-element elementor-element-21f16f95 elementor-widget__width-initial animated-slow elementor-widget-mobile__width-initial elementor-widget elementor-widget-theme-site-logo elementor-widget-image animated fadeInLeft" data-id="21f16f95" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="theme-site-logo.default">
             <div class="elementor-widget-container">
               <a href="https://hanconcept.eu/home/">
-                <img width="2048" height="913" src="https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-2048x913.png" class="attachment-2048x2048 size-2048x2048 wp-image-85" alt="" loading="lazy" srcset="https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-2048x913.png 2048w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-300x134.png 300w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-1024x457.png 1024w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-768x343.png 768w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-1536x685.png 1536w" sizes="(max-width: 2048px) 100vw, 2048px">
+                <img width="2048" height="913" src="https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-2048x913.png" class="attachment-2048x2048 size-2048x2048 wp-image-85" alt="" loading="lazy" srcset="https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-2048x913.png 2048w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-300x134.png 300w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-1024x457.png 1024w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-768x343.png 768w, https://hanconcept.eu/wp-content/uploads/2023/03/Unbenannt-111-1536x685.png 1536w" sizes="(max-width: 2048px) 100vw, 2048px" />
               </a>
             </div>
           </div>
@@ -1074,5 +1099,8 @@ export default function HomePage() {
   </section>
   </footer>
 </Layout>
+  );
+}
+
   );
 }
