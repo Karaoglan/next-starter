@@ -6,7 +6,7 @@ const defaultMeta = {
   title: 'Next.js + Tailwind CSS + TypeScript Starter',
   siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    'A starter for Next.js, it should be minimal 150 character and max 220 i think this is enough let us check Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
   url: 'https://devkaraoglan.website',
   type: 'website',
   robots: 'follow, index',
