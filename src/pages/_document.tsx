@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -22,6 +23,16 @@ export default function Document() {
               `})(window,document,'script','dataLayer','GTM-MLZPWTZ');`,
           }}
         />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              `window.dataLayer = window.dataLayer || [];` +
+              `function gtag(){dataLayer.push(arguments);}` +
+              `gtag('js', new Date());` +
+              `gtag('config', 'G-9DCXWVL804');`,
+          }}
+        ></script>
       </Head>
       <body>
         <noscript
@@ -29,6 +40,12 @@ export default function Document() {
             __html: `<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-MLZPWTZ' height='0' width='0' style='display:none;visibility:hidden' />`,
           }}
         ></noscript>
+
+        <Script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-9DCXWVL804'
+        ></Script>
+
         <Main />
         <NextScript />
       </body>
